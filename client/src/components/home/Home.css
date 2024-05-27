@@ -1,0 +1,47 @@
+/* Home.css */
+
+.home-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .home-text {
+    font-size: 1.2rem;
+    color: #343a40;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .home-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .home-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-container {
+      padding: 10px;
+    }
+  
+    .home-text {
+      font-size: 0.9rem;
+    }
+  }
+  

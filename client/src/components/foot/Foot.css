@@ -1,0 +1,22 @@
+/* Foot.css */
+
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Text color */
+    text-align: center; /* Center align text */
+    position: fixed; /* Fixed position at the bottom */
+    left: 0; /* Position from left edge */
+    bottom: 0; /* Position from bottom edge */
+    width: 100%; /* Full width */
+  }
+  
+  .footer-text {
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Text font size */
+  }
+  
+  .phone-number {
+    font-weight: bold; /* Bold font weight */
+    color: #007bff; /* Phone number color */
+  }
+  
